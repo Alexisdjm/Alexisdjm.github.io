@@ -1124,6 +1124,15 @@ ul.slides li {
 	background-position:200px 10px;
 	height: 100%;
 }
+
+.course-container {
+	display: flex; justify-content: center;
+}
+
+.videos {
+	margin: 3em 0;
+	text-align: center;
+}
 /* ==========================================================================Responsive========================================================================== */
 /* 320px (iPhone) */
 @media screen and (max-width:414px) {
@@ -1206,6 +1215,10 @@ ul.slides li {
 	.inner {
     padding-top: 10px;
     text-align: center;
+	}
+
+	.course-container {
+		display: block;
 	}
 
 	.hero h3 {
